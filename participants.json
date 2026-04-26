@@ -17,7 +17,7 @@
     "oral_contraceptive": {
         "LongName": "Oral Contraceptive (Yes/No)",
         "Description": "whether or not the subject was using an oral contraceptive",
-        "Units": "yes/no"
+        "Units": "yes = uses oral contraceptives, no = Does not use oral contraceptives"
     },
     "days_since_menstruation": {
         "LongName": "Days Since Last Menstruation (Day in Cycle)",
