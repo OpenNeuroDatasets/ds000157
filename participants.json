@@ -1,38 +1,20 @@
 {
-  "diet_importance": {
-    "LongName": "Diet importance",
-    "Description": "Participant self-rating of how important dieting is",
-    "Levels": {
-      "1": "Not important at all",
-      "2": "Slightly important",
-      "3": "Moderately important",
-      "4": "Very important",
-      "5": "Extremely important"
-    }
-  },
-  "appetite_pre": {
-    "LongName": "Pre-scan appetite rating",
-    "Description": "Participant self-rating of appetite strength before the scan",
-    "Levels": {
-      "1": "Very low appetite",
-      "2": "Low appetite",
-      "3": "Moderate appetite",
-      "4": "High appetite",
-      "5": "Very high appetite"
-    }
-  },
-  "appetite_post": {
-    "LongName": "Post-scan appetite rating",
-    "Description": "Participant self-rating of appetite strength after the scan",
-    "Levels": {
-      "1": "Very low appetite",
-      "2": "Low appetite",
-      "3": "Moderate appetite",
-      "4": "High appetite",
-      "5": "Very high appetite"
-    }
-  },
-  "oral_contraceptive": {
+    "diet_importance": {
+	"LongName": "Diet Importance",
+	"Description": "subject's self-rating of how important dieting is to them",
+	"Units": "1-5 scale, 5 being the highest"
+    },
+    "appetite_pre": {
+        "LongName": "Pre-scan Appetite Rating (Hunger Covariate)",
+        "Description": "subject's self-rating of appetite strength when asked before the scan",
+        "Units": "1-5 scale, 5 being the highest"
+    },
+    "appetite_post": {
+        "LongName": "Post-scan Appetite Rating",
+        "Description": "subject's self-rating of appetite strength when asked after the scan",
+        "Units": "1-5 scale, 5 being the highest"
+    },
+     "oral_contraceptive": {
     "LongName": "Oral contraceptive use",
     "Description": "Whether or not the participant was using an oral contraceptive",
     "Levels": {
@@ -40,18 +22,14 @@
       "no": "Does not use oral contraceptives"
     }
   },
-  "days_since_menstruation": {
-    "LongName": "Days since last menstruation",
-    "Description": "Number of days since the participant's last menstruation",
-    "Units": "days"
-  },
-  "cycle_phase_covariate": {
-    "LongName": "Menstrual cycle phase covariate",
-    "Description": "Menstrual cycle phase based on days since menstruation and oral contraceptive use",
-    "Levels": {
-      "0": "Not in phase 1 or 2 (29 days or more) or using oral contraceptives",
-      "1": "Follicular phase or ovulation (day 1–14)",
-      "2": "Luteal phase (day 15–28)"
+    "days_since_menstruation": {
+        "LongName": "Days Since Last Menstruation (Day in Cycle)",
+        "Description": "number of days since last menstruation",
+        "Units": "days"
+    },
+    "cycle_phase_covariate": {
+        "LongName": "Cycle Phase Covariate",
+        "Description": "Menstrual Cycle phase (based on days_since_menstruation and oral_contraceptive",
+        "Units": "0 = Not in phase 1 or 2 (29 days or more) or using oral contraceptives, 1 = Follicular phase/ovulation (day 1-14), 2 = Luteal phase (day 15 to 28)"
     }
-  }
 }
