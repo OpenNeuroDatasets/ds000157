@@ -15,9 +15,9 @@
         "Units": "1-5 scale, 5 being the highest"
     },
     "oral_contraceptive": {
-        "LongName": "Oral Contraceptive (Yes/No)",
-        "Description": "whether or not the subject was using an oral contraceptive",
-        "Units": "yes": "uses oral contraceptives", "no": "Does not use oral contraceptives"
+        "LongName": "Oral Contraceptive use",
+        "Description": "Whether or not the subject was using an oral contraceptive",
+        "Levels": "yes": "Uses oral contraceptives", "no": "Does not use oral contraceptives"
     },
     "days_since_menstruation": {
         "LongName": "Days Since Last Menstruation (Day in Cycle)",
